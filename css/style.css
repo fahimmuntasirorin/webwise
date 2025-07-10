@@ -1,0 +1,30 @@
+/* =========================================================
+Css start
+==============================================*/
+.header-main{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+.header-logo a {
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 800;
+  color: #4E47FF;
+}
+.common-button{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+}
+
+.common-button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
