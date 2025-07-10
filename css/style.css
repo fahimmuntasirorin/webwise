@@ -4,11 +4,16 @@ Css start
 .header-main{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding: 100px 0px;
+    
 }
 .header-navigation {
   display: flex;
   justify-content: space-between;
-  margin: 50px 150px;
+  margin: 0px 150px;
 }
 
 .header-logo a {
@@ -17,14 +22,20 @@ Css start
   font-weight: 800;
   color: #4E47FF;
 }
-.common-button{
+
+.common-button a{
     padding: 12px 36px;
     background-color: #4E47FF;
     border-radius: 10px;
-}
-
-.common-button a{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+}
+.header-text{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 40px;
+}
+.header-button{
+    text-align: center;
 }
