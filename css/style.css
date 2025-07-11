@@ -190,6 +190,11 @@ footer {
   color: #fff;
   font-size: 18px;
   margin-top: 20px;
+  transition: 0.3s all linear;
+}
+.get-in-touch-btn:hover{
+  background-color: #ffb805;
+  color: #252432;
 }
 
 /* footer started */
